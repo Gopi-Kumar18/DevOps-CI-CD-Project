@@ -39,7 +39,7 @@ version: '3.8'
 
 services:
   front:
-    image: frontend-image
+    image: gopikumar1/frontend-image
     ports:
       - "5173:5173"
     restart: on-failure
@@ -47,7 +47,7 @@ services:
       - pulled-ds-net
 
   backend:
-    image: backend-image
+    image: gopikumar1/backend-image
     ports:
       - "3000:3000"
     restart: on-failure
